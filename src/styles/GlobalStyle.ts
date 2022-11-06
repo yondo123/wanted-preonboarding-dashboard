@@ -87,6 +87,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     cursor: pointer;
   }
+
+  body{
+    height: 100vh;
+    max-width:1440px;
+    margin: 0 auto;
+    background-color: #ededed;
+  }
 `;
 
 export default GlobalStyle;
