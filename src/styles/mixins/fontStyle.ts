@@ -18,7 +18,7 @@ export const textColor = (color = 'main') => {
   `;
 };
 
-export const text = (size = 'sm') => {
+export const text = (size?: string) => {
   switch (size) {
     case 'sm':
       return css`
@@ -28,6 +28,7 @@ export const text = (size = 'sm') => {
     case 'md':
       return css`
         font-size: 14px;
+        line-height: 16.41px;
       `;
     case 'lg':
       return css`
